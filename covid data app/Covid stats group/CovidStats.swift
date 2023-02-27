@@ -27,6 +27,8 @@ struct CovidStats: View {
                     CovidApiCall().getApiData { (covidInfo) in
                         self.CovidInfo = covidInfo
                     }
+             
+                    
                 }
         }
     }
